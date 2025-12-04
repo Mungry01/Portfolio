@@ -8,7 +8,7 @@ body {
 /* Hero */
 .hero {
   padding: 100px 40px;
-  background-color: #a4ccab;
+  background-color: #5C7782;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -17,11 +17,6 @@ body {
   
 }
 
-.hero-image img {
-  width: 350px;
-  max-width: 100%;
-  border-radius: 10px;
-}
 
 .hero-content{
 max-width: 500px;
@@ -30,7 +25,7 @@ max-width: 500px;
 .cta {
   padding: 15px 30px;
   font-size: 1rem;
-  background-color: #e4ccab;
+  background-color: #E1B93C;
   color: #000;
   border: none;
   border-radius: 5px;
@@ -54,7 +49,7 @@ max-width: 500px;
   display: flex;
   justify-content: space-around;
   padding: 60px 20px;
-  background-color: #de9c63;
+  background-color: #809778;
   flex-wrap: wrap;
 }
 
@@ -62,7 +57,7 @@ max-width: 500px;
   flex: 1;
   margin: 10px;
   padding: 25px;
-  background: #b54405;
+  background: #E1B93C;
   border: 1px solid #ddd;
   border-radius: 12px;
   text-align: center;
@@ -83,7 +78,7 @@ max-width: 500px;
 
 /* Veesual */
 .visual{
-  background: #a46c54;
+  background: #9D6F43;
   text-align: center;
   padding: 60px 20px;
 }
@@ -100,13 +95,13 @@ max-width: 500px;
 .info {
   padding: 60px 20px;
   text-align: center;
-  background: #752c04;
+  background: #BB844C;
 }
 
 
 /* Seegn up */
 .cta-final {
-  background: linear-gradient(90deg, #852c04, #e4ccab);
+  background: linear-gradient(90deg, #5C7782, #E1B93C);
   text-align: center;
   padding: 70px 20px;
   color: white;
@@ -114,7 +109,7 @@ max-width: 500px;
 
 .cta-final .cta{
   background: white;
-  color: #e4ccab;
+  color: #9D6F43;
   font-weight: bold;
 }
 
