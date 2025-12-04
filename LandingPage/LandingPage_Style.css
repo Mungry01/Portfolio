@@ -5,40 +5,69 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-
+/* Hero */
 .hero {
-  text-align: left;
-  padding: 100px 20px;
+  padding: 100px 40px;
   background-color: #3A2E8C;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+
+.hero-content{
+max-width: 500px;
 }
 
 .cta {
   padding: 15px 30px;
   font-size: 1rem;
-  background-color: #007bff;
-  color: white;
+  background-color: #F7C948;
+  color: #000;
   border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.cta-outline{
+  padding: 15px 30px;
+  font-size: 1rem;
+  background-color: transparent;
+  color: white;
+  border: 2px  solid #fff;
   border-radius: 5px;
   cursor: pointer;
 }
 
+
+/* Feeture */
 .features {
   display: flex;
   justify-content: space-around;
-  padding: 50px 20px;
+  padding: 60px 20px;
   background-color: #F8F8F8;
+  flex-wrap: wrap;
 }
 
 .feature-card {
   flex: 1;
-  margin: 0 10px;
-  padding: 20px;
+  margin: 10px;
+  padding: 25px;
   background: #ffffff;
   border: 1px solid #ddd;
-  border-radius: 8px;
+  border-radius: 12px;
   text-align: center;
   transition: 0.3s ease;
   box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+  min-width: 200px;
+}
+
+.feature-card span{
+  font-size: 0.9rem;
+  color: #555;
 }
 
 .feature-card:hover{
@@ -46,34 +75,62 @@ body {
   box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
 }
 
+/* Veesual */
+.visual{
+  background: #A7D3F3;
+  text-align: center;
+  padding: 60px 20px;
+}
+
 .visual img {
   width: 100%;
-  max-width: 800px;
-  display: block;
-  margin: 0 auto;
-  background: #A7D3F3;
+  max-width: 700px;
+  border-radius: 10px;
+  margin-top: 20px;
 }
 
+
+/* eenformation */
 .info {
-  padding: 50px 20px;
+  padding: 60px 20px;
+  text-align: center;
 }
 
+
+/* Seegn up */
 .cta-final {
+  background: linear-gradient(90deg, #3A2E8C, #F7C948);
   text-align: center;
   padding: 70px 20px;
+  color: white;
 }
 
+.cta-final .cta{
+  background: white;
+  color: #3A2E8C;
+  font-weight: bold;
+}
+
+/* Feet */
 footer {
   text-align: center;
   padding: 20px;
-  background: #333;
+  background: #222;
   color: #fff;
 }
 
 /* Responsive adjustments */
 @media screen and (max-width: 768px) {
+  .hero{
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+
+  
   .features {
     flex-direction: column;
+    padding: 40px 20px
   }
   .feature-card {
     margin: 10px 0;
