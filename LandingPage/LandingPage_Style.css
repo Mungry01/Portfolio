@@ -17,6 +17,12 @@ body {
   
 }
 
+.hero-image img {
+  width: 350px;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
 .hero-content{
 max-width: 500px;
 }
