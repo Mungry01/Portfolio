@@ -30,7 +30,7 @@ max-width: 500px;
 .cta {
   padding: 15px 30px;
   font-size: 1rem;
-  background-color: #F7C948;
+  background-color: #e4ccab;
   color: #000;
   border: none;
   border-radius: 5px;
@@ -114,7 +114,7 @@ max-width: 500px;
 
 .cta-final .cta{
   background: white;
-  color: #3A2E8C;
+  color: #e4ccab;
   font-weight: bold;
 }
 
