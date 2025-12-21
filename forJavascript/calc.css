@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Each activity section now spans the screen */
+.section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+/* Panels fill the screen width with margins */
+.calculator,
+.tool {
+  background: #222;
+  color: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+
+  width: 100%;
+  max-width: 1100px; /* keeps it readable on large screens */
+  margin: 0 20px;    /* LEFT & RIGHT margin */
+}
+
+
+/* Titles */
+h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Calculator display */
+#display {
+  width: 100%;
+  height: 50px;
+  font-size: 24px;
+  text-align: right;
+  margin-bottom: 10px;
+  padding-right: 10px;
+}
+
+/* Buttons grid */
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+/* Buttons */
+button {
+  height: 45px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.85;
+}
+
+.equals {
+  grid-row: span 2;
+  background: #ff9500;
+  color: white;
+}
+
+.zero {
+  grid-column: span 2;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  font-size: 14px;
+}
+
+/* Multiplication table */
+.table-wrapper {
+  overflow-x: auto;
+  margin-top: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+td {
+  border: 1px solid #555;
+  padding: 8px;
+}
+
+/* Comparison result */
+#compareResult {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+/* 📱 Mobile friendly */
+@media (max-width: 600px) {
+  .calculator,
+  .tool {
+    max-width: 100%;
+  }
+
+  button {
+    height: 50px;
+    font-size: 18px;
+  }
+}
